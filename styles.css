@@ -1,0 +1,191 @@
+/* Font */
+@import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap");
+/* Main */
+body {
+  background-color: whitesmoke;
+  font-family: "Hanken Grotesk", sans-serif;
+}
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+/* Class */
+.field {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: white;
+  width: 500px;
+  height: 300px;
+  border: none;
+  padding: 0;
+  border-radius: 10px;
+  -webkit-box-shadow: 8px 8px 24px 0px rgba(227, 227, 248, 1);
+  -moz-box-shadow: 8px 8px 24px 0px rgba(227, 227, 248, 1);
+  box-shadow: 8px 8px 24px 0px rgba(227, 227, 248, 1);
+}
+.left-site {
+  background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+  border-radius: 10px;
+}
+.head {
+  color: white;
+  text-align: center;
+  font-size: 15px;
+  padding-top: 15px;
+  font-weight: 500;
+}
+.right-site {
+  border-radius: 10px;
+}
+.Sumarry {
+  color: black;
+  text-align: left;
+  font-size: 15px;
+  padding-top: 15px;
+  padding-left: 20px;
+  font-weight: 800;
+}
+.circle {
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  display: flex;
+  margin: 0;
+  height: 130px;
+  width: 130px;
+  margin: auto;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+  color: white;
+}
+.circle-p {
+  text-align: center;
+}
+
+.upp {
+  font-size: 50px;
+}
+.down {
+  text-align: center;
+  font-size: 13px;
+  opacity: 0.3;
+}
+.great {
+  color: white;
+  text-align: center;
+  font-weight: 800;
+  font-size: 20px;
+  margin-top: 12px;
+  margin-bottom: 1px;
+}
+.text {
+  margin: 10px 30px auto 30px;
+  text-align: center;
+  color: white;
+  font-size: 13px;
+  font-weight: 500;
+}
+.color-red {
+  background: rgba(255, 0, 0, 0.1);
+  width: 200px;
+  height: 40px;
+  border-radius: 10px;
+  margin: auto;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+.color-yellow {
+  background-color: rgba(255, 255, 0, 0.1);
+  width: 200px;
+  height: 40px;
+  border-radius: 10px;
+  margin: auto;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+.color-green {
+  background-color: rgba(0, 128, 0, 0.1);
+  width: 200px;
+  height: 40px;
+  border-radius: 10px;
+  margin: auto;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+.color-blue {
+  background-color: rgba(0, 0, 255, 0.1);
+  width: 200px;
+  height: 40px;
+  border-radius: 10px;
+  margin: auto;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+.myButton {
+  box-shadow: 0px 0px 0px 2px #9fb4f2;
+  background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+  background-color: #7892c2;
+  border-radius: 42px;
+  border: 1px solid #4e6096;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 14px;
+  padding: 7px 70px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #283966;
+  margin: auto;
+}
+.myButton:hover {
+  background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+  background-color: #476e9e;
+}
+.myButton:active {
+  position: relative;
+  top: 1px;
+}
+.but {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  border: none;
+  background-color: white;
+}
+.ikon {
+  margin-left: 10px;
+}
+.reac {
+  color: red;
+  font-size: 13px;
+  padding-left: 5px;
+}
+.yel {
+  color: orange;
+  font-size: 13px;
+  padding-left: 5px;
+}
+.ver {
+  color: green;
+  font-size: 13px;
+  padding-left: 5px;
+}
+.vis {
+  color: blue;
+  font-size: 13px;
+  padding-left: 5px;
+}
+.first {
+  font-size: 13px;
+  margin-right: 10px;
+  margin-left: auto;
+}
+.sec {
+  opacity: 0.5;
+}
